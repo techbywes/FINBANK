@@ -12,14 +12,14 @@ body {
 .general {
   background-color: #ffffff;
   max-width: 90%;
-  height: 1000px;
+  height: 919px;
   margin: 0 auto;
   border-radius: 2rem;
   display: flex;
 }
 .left_container {
   width: 26%;
-  height: 1000px;
+  height: 919px;
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
   background-color: #ffffff;
@@ -114,10 +114,12 @@ a {
   color: #b3b2b6;
 }
 .footer_wrapper {
-  margin-top: 18rem;
+  margin-top: 12rem;
 }
 /* LEFT  NAV DESIGN ENDS HERE */
-.header_wrapper {
+.header_wrapper,
+.afterHeaderLeft_container,
+.afterHeaderright_container {
   margin: 2rem;
 }
 .title_left {
@@ -130,16 +132,16 @@ a {
   margin-top: -0.4rem;
 }
 
-.header_wrapper{
- display: flex;
-justify-content: space-between;
-align-items: center;
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .moon_container {
   margin-right: 1rem;
   background: #fef8ff;
-  width: 3rem;
+  width: 3.5rem;
   display: flex;
   justify-content: center;
   padding: 1rem 0rem 1rem 0rem;
@@ -148,14 +150,14 @@ align-items: center;
 }
 .moon_logo {
   width: 1.2rem;
-  display:block;
+  display: block;
   margin: 0 auto;
 }
 
 .notification_container {
   margin-right: 1rem;
   background: #fef8ff;
-  width: 3rem;
+  width: 3.5rem;
   display: flex;
   justify-content: center;
   padding: 1rem 0rem 1rem 0rem;
@@ -164,7 +166,7 @@ align-items: center;
 }
 .notification_logo {
   width: 1.2rem;
-  display:block;
+  display: block;
   margin: 0 auto;
 }
 .man_container {
@@ -175,7 +177,7 @@ align-items: center;
   display: flex;
   justify-content: center;
   padding: 1rem 0rem 1rem 0rem;
-  border-radius:50%;
+  border-radius: 50%;
   text-align: center;
   box-shadow: 0px 0.2px 1px rgba(0, 0, 0, 0.25);
 }
@@ -183,19 +185,207 @@ align-items: center;
 .man_logo {
   max-width: 80%;
   height: auto;
-  background-color: #E4E5E8;
+  background-color: #e4e5e8;
   border-radius: 50%;
-  display:block;
+  display: block;
   margin: 0 auto;
   margin-top: -0.7rem;
 }
 
-
-.icon_right{
-  font-size: 0
+.icon_right {
+  font-size: 0;
 }
 .icon_right > div {
   display: inline-block;
   vertical-align: middle;
-  font-size: 16px; /* reset font size to avoid inheriting parent's font size */
+  font-size: 16px;
+}
+
+.right_general {
+  display: flex;
+}
+
+.debitText_dotDIV {
+  margin: 0.2rem 2rem 0.2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more_straight_logo {
+  width: 20px;
+  height: 20px;
+}
+
+.debit_text {
+  font-size: 0.8rem;
+  color: #252c32;
+}
+
+.afterHeaderLeft_container {
+  background-color: #ffffff;
+  width: 60%;
+  height: 40vh;
+  border-radius: 1.5rem;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.afterHeaderright_container {
+  background-color: #ffffff;
+  width: 40%;
+  height: 40vh;
+  border-radius: 1.5rem;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.cardImageADD_wrapper {
+  margin-left: 1rem;
+}
+
+.card_image {
+  width: 55%;
+}
+
+.AddDebit_right {
+  background-color: #f7f7f7;
+  width: 30%;
+  height: 150px;
+
+  border-radius: 1.5rem;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.cardImageADD_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.plusBody_carrier {
+  background-color: #ccd2de;
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 1rem;
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.plusAAd2 {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 1.6rem;
+}
+
+.addDebit_text {
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+.TotalBalalnce_text {
+  text-align: center;
+  font-size: 0.6rem;
+  color: #2b3143;
+  margin-top: 1.3rem;
+  font-weight: 800;
+}
+
+.data_text {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #b9bdbf;
+}
+
+.money_text {
+  text-align: center;
+  color: #1c6272;
+  font-weight: 800;
+}
+
+.sendTopupMore_container {
+  background-color: #e8f0f2;
+  width: 90%;
+  height: 35%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+
+.sendicon_div,
+.topUp_div,
+.more_div {
+  border-radius: 0.7rem;
+  background-color: #fffdfe;
+  width: 70px;
+  height: 60px;
+  margin-bottom: 1rem;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.send_icon,
+.topup_icon,
+.more_icon {
+  width: 22px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 0.6rem;
+}
+.sent_text,
+.toptup_text,
+.more_text {
+  font-size: 0.7rem;
+  margin-top: 0.4rem;
+  text-align: center;
+}
+
+.sendTopupMore_wrapper {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.sendTopupMore_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_general {
+  margin-top: -2rem;
+}
+
+.recent_reansactions_div{
+  margin: 2rem;
+  background-color: #ffffff;
+  width: 60%;
+  height: 40vh;
+  border-radius: 1.5rem;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.expenses_instead_div{
+  margin: 2rem;
+  background-color: #ffffff;
+  width: 40%;
+  height: 40vh;
+  border-radius: 1.5rem;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.recent_expenses_wrapper{
+  margin-top: -1rem;
+  display: flex;
+}
+.invoice_activity{
+  margin: 2rem;
+  background-color: #ffffff;
+  width: 93%;
+  height: 20vh;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
 }
