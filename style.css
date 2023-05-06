@@ -359,7 +359,7 @@ a {
   margin-top: -2rem;
 }
 
-.recent_reansactions_div{
+.recent_transactions_div {
   margin: 2rem;
   background-color: #ffffff;
   width: 60%;
@@ -368,7 +368,7 @@ a {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 }
 
-.expenses_instead_div{
+.expenses_instead_div {
   margin: 2rem;
   background-color: #ffffff;
   width: 40%;
@@ -377,11 +377,11 @@ a {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 }
 
-.recent_expenses_wrapper{
+.recent_transcExpenses_wrapper {
   margin-top: -1rem;
   display: flex;
 }
-.invoice_activity{
+.invoice_activity {
   margin: 2rem;
   background-color: #ffffff;
   width: 93%;
@@ -389,3 +389,83 @@ a {
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
 }
+
+.text_searchCalender,
+.search_calanderDIV {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -12rem;
+}
+
+.recent_transactions_div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recent_transactions_text {
+  font-size: 0.9rem;
+}
+
+.search_calanderDIV {
+  display: flex;
+  justify-content: center;
+}
+
+.search_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12px;
+  height: 6px;
+  padding: 0.6rem 0.4rem;
+  border-radius: 0.4rem;
+  border: 1px solid #cacfd7;
+  margin-right: 0.4rem;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+}
+
+.search_icon {
+  width: 4rem;
+  height: 1rem;
+}
+
+#date {
+  border: none;
+  border: 1px solid #cacfd7;
+  padding: 0.3rem;
+  border-radius: 0.4rem;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+}
+
+.calender_div {
+  width: 8rem;
+  height: 29px;
+  border: 1px solid #cacfd7;
+  border-radius: 0.6rem;
+  display: flex;
+  justify-content: center;
+  padding: 0.1rem 0.4rem;
+}
+
+.calendar_icon {
+  width: 1.2rem;
+}
+.calandar_tex {
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: #7e7c89;
+}
+.down_arrow {
+  width: 1rem;
+}
+.calendar_text_arrowdown {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+
