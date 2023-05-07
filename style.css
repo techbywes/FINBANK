@@ -385,7 +385,7 @@ a {
   margin: 2rem;
   background-color: #ffffff;
   width: 93%;
-  height: 20vh;
+  height: 16vh;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
 }
@@ -523,7 +523,7 @@ a {
 .TransactionW_text,
 .H_andM_text {
   font-size: 0.8rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .spotify_date,
@@ -561,13 +561,105 @@ a {
   margin-bottom: 2rem;
 }
 
-.paypal_price,.transferW_price{
+.paypal_price,
+.transferW_price {
   color: #1c6272;
   font-weight: bold;
 }
 
+.spotify_price,
+.H_and_M_price {
+  color: #a8acb7;
+}
 
+.expenses_instead_DIv {
+  margin: 0.2rem 2rem 0.2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-.spotify_price,.H_and_M_price{
-  color: #A8ACB7;
+.expenses_instead_logo {
+  width: 20px;
+  height: 20px;
+}
+
+.expenses_instead_text {
+  font-size: 0.8rem;
+  color: #252c32;
+}
+
+/* circle starts here */
+
+.wrapper {
+  overflow: hidden;
+  margin-left: 4.5rem;
+  margin-top: 1rem;
+}
+
+.circle {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  border-top-left-radius: 380px;
+  border-top-right-radius: 380px;
+  border: 100px solid #1c6272;
+  border-bottom: 0;
+
+  transition: all 1s ease;
+
+  transform-origin: bottom;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(-180deg);
+
+  bottom: 0;
+  left: -200px;
+}
+
+.circle-out {
+  width: 110px;
+  height: 60px;
+  background-color: white;
+  border-top-left-radius: 480px;
+  border-top-right-radius: 480px;
+  border: 25px solid #1c6272;
+  border-bottom: 0;
+  position: relative;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+
+.Norma_levell_text {
+  font-size: 0.8rem;
+  color: #1c6272;
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.total_expo {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  color: #1c6272;
+  padding: 0.8rem 1rem 0.8rem 1rem;
+  background-color: #e8f0f2;
+  border-radius: 0.8em;
+  font-size: 0.8rem;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.price_span {
+  color: #1c6272;
+  font-weight: bold;
 }
