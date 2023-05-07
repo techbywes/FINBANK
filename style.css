@@ -116,7 +116,7 @@ a {
   color: #b3b2b6;
 }
 .footer_wrapper {
-  margin-top: 12rem;
+  margin-top: 15.8rem;
 }
 /* LEFT  NAV DESIGN ENDS HERE */
 .header_wrapper,
@@ -692,6 +692,7 @@ a {
 }
 
 .invoice_input {
+  margin-top: 1rem;
   margin-bottom: 1.8rem;
   width: 60%;
   border: none;
@@ -706,7 +707,7 @@ a {
   width: 1.4rem;
   position: absolute;
   margin-right: 5.4rem;
-  margin-top: -1.9rem;
+  margin-top: -0.6rem;
 }
 
 .invoice_filter_icon,
@@ -744,12 +745,13 @@ a {
 }
 
 .invoiceactivity_menu_DIV {
+  background-color: #e8f0f271;
   width: 95%;
   margin-top: 4rem;
   height: 40px;
   margin: auto;
   border-radius: 0.6rem;
-  box-shadow: 0.1px 0.1px 0.4px 1px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
 }
 
 .invoice_menu_li {
