@@ -363,7 +363,7 @@ a {
   margin: 2rem;
   background-color: #ffffff;
   width: 60%;
-  height: 40vh;
+  height: 44vh;
   border-radius: 1.5rem;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 }
@@ -372,7 +372,7 @@ a {
   margin: 2rem;
   background-color: #ffffff;
   width: 40%;
-  height: 40vh;
+  height: 44vh;
   border-radius: 1.5rem;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 }
@@ -406,12 +406,14 @@ a {
 }
 
 .recent_transactions_text {
+  margin-top: -1rem;
   font-size: 0.9rem;
 }
 
 .search_calanderDIV {
   display: flex;
   justify-content: center;
+  margin-top: -14rem;
 }
 
 .search_div {
@@ -441,8 +443,8 @@ a {
 }
 
 .calender_div {
-  width: 8rem;
-  height: 29px;
+  width: 6rem;
+  height: 25px;
   border: 1px solid #cacfd7;
   border-radius: 0.6rem;
   display: flex;
@@ -451,21 +453,121 @@ a {
 }
 
 .calendar_icon {
-  width: 1.2rem;
+  width: 1rem;
+  margin-right: 0.2rem;
 }
 .calandar_tex {
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   font-weight: 800;
   color: #7e7c89;
+  margin-right: 0.2rem;
 }
 .down_arrow {
-  width: 1rem;
+  width: 0.7rem;
 }
 .calendar_text_arrowdown {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 0.4rem;
+}
+
+.payal_div,
+.spotify_div,
+.transferW_div,
+.H_and_M_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.6rem;
+  background-color: #fffdfe;
+  width: 2rem;
+  height: 2rem;
+  margin-top: 0.6rem;
+  margin-bottom: 1rem;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.paypal_icon,
+.spotify_icon,
+.transferW_icon,
+.H_and_M_icon {
+  width: 1.4rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.payal_div {
+  background-color: #e6fcef;
+}
+.spotify_div {
+  background-color: #dbfdee;
+}
+.transferW_div {
+  background-color: #e1fcfb;
+}
+.H_and_M_div {
+  background-color: #f8e5e9;
+}
+
+.icons_div {
+  position: absolute;
+  display: block;
+  float: left;
+  margin-top: 4rem;
+  margin-left: 1.3rem;
+  padding-bottom: 4rem;
+}
+
+.paypal_text,
+.spotify_prenuim_text,
+.TransactionW_text,
+.H_andM_text {
+  font-size: 0.8rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.spotify_date,
+.TransferW_date,
+.paypal_data,
+.H_andM_date {
+  margin-top: -0.4rem;
+  font-size: 0.7rem;
+  color: #c5cacb;
+  font-weight: 600;
+}
+
+.All_transac_text_div {
+  position: absolute;
+  display: block;
+  float: left;
+  margin-top: 4rem;
+  margin-left: 4rem;
+  padding-bottom: 4rem;
+}
+
+.Alltransac_price_DIV {
+  display: block;
+  margin-top: -12.4rem;
+  margin-right: -14rem;
+  padding-bottom: 4rem;
+  float: right;
+}
+
+.paypal_price,
+.spotify_price,
+.transferW_price,
+.H_and_M_price {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.paypal_price,.transferW_price{
+  color: #1c6272;
+  font-weight: bold;
 }
 
 
+
+.spotify_price,.H_and_M_price{
+  color: #A8ACB7;
+}
