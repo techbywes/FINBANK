@@ -10,6 +10,7 @@ body {
 
 /* LEFT  NAV DESIGN STARTS FROM HERE */
 .general {
+  padding-bottom: 6rem;
   background-color: #ffffff;
   max-width: 90%;
   height: 919px;
@@ -18,6 +19,7 @@ body {
   display: flex;
 }
 .left_container {
+  padding-bottom: 6rem;
   width: 26%;
   height: 919px;
   border-top-left-radius: 2rem;
@@ -30,7 +32,7 @@ body {
   margin-bottom: 0.4rem;
   margin-right: 0.4rem;
   width: 100%;
-  height: 1000x;
+  height: 1000px;
   border-top-right-radius: 2rem;
   border-bottom-right-radius: 2rem;
   border-top-left-radius: 0.3rem;
@@ -382,6 +384,7 @@ a {
   display: flex;
 }
 .invoice_activity {
+  padding-bottom: 6rem;
   margin: 2rem;
   background-color: #ffffff;
   width: 93%;
@@ -662,4 +665,74 @@ a {
 .price_span {
   color: #1c6272;
   font-weight: bold;
+}
+
+
+.general_up_div{
+  padding-top: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right_search_etcDiv{
+  display: flex;
+}
+.invoice_search_div,.invoice_filter_div,.invoice_export_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.invoice_text{
+  font-size: 0.9rem;
+  margin-left: 1rem;
+}
+
+.invoice_input{
+  margin-top: 0.9rem;
+  width: 60%;
+  border: none;
+  border: 1px solid #ccc;
+  padding: 0.5rem 0.4rem 0.5rem 0.4rem;
+  border-radius: 0.5rem;
+  outline: none;
+  padding-left: 2rem;
+}
+
+.invoice_search_icon{
+  width: 1.4rem;
+  position: absolute;
+  margin-right: 5.4rem;
+  margin-top: 0.9rem;
+}
+
+.invoice_filter_icon,.invoice_export_icon{
+  width: 1rem;
+  margin-right: 0.4rem;
+}
+
+.invoice_filter_tex,.invoice_export_Text{
+  font-size: 0.8rem;
+  color: #717679;
+  font-weight: bold;
+}
+
+.invoice_filter_div,.invoice_export_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #B6C3CD;
+  border-radius: 0.6rem;
+  background-color: #fffdfe;
+  width: 5rem;
+  height: 2rem;
+  margin-top: 0.9rem;
+  box-shadow: 0px 0.2px 0.4px rgba(0, 0, 0, 0.12);
+}
+.invoice_export_div{
+  margin-right: 1rem;
+}
+.invoice_filter_div{
+  margin-right: 1rem;
 }
