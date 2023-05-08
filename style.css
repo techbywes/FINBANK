@@ -3,8 +3,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #e6ebee;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   font-family: sans-serif;
 }
 
@@ -12,12 +12,13 @@ body {
 .general {
   padding-bottom: 6rem;
   background-color: #ffffff;
-  max-width: 90%;
+  max-width: 100%;
   height: 879px;
-  margin: 0 auto;
+  margin: auto;
   border-radius: 2rem;
   display: flex;
 }
+
 .left_container {
   padding-bottom: 3rem;
   width: 26%;
@@ -32,7 +33,7 @@ body {
   margin-bottom: 0.4rem;
   margin-right: 0.4rem;
   width: 100%;
-  height: 963px;
+  height: 60rem;
   border-top-right-radius: 2rem;
   border-bottom-right-radius: 2rem;
   border-top-left-radius: 0.3rem;
@@ -644,6 +645,7 @@ a {
   border: 25px solid #1c6272;
   border-bottom: 0;
   position: relative;
+  margin-left: 1rem;
 }
 
 .text {
@@ -790,3 +792,355 @@ a {
   display: flex;
   align-items: center;
 }
+
+/* MEDIA QUERIES STARTS HERE */
+
+/* Mobile devices */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e6ebee;
+    font-family: sans-serif;
+  }
+
+  .right_general {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left_container {
+    display: none;
+  }
+
+  .mobile_nav_bar {
+    margin-left: -12.4rem;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .menu_open_logo,
+  .menu_close_logo {
+    width: 1.4rem;
+    position: absolute;
+    margin-top: -7.8rem;
+    margin-right: -rem;
+    cursor: pointer;
+  }
+  .menu_open_logo {
+    margin-left: 12.1rem;
+    margin-top: -23.2rem;
+  }
+  .menu_close_logo {
+    display: none;
+  }
+  .title_left_container {
+    display: flex;
+  }
+  .icon_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .notification_container,
+  .moon_container {
+    display: none !important;
+  }
+  .man_container {
+    margin-bottom: 1.7rem;
+    margin-left: 6rem;
+  }
+  .title_left {
+    display: none;
+  }
+
+  .leftNAV_paragraph_text {
+    font-size: 0.8rem;
+    white-space: nowrap;
+    font: bolder;
+    color: #ffffff;
+  }
+
+  .general {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height:96.2rem;
+    display: block;
+    border-radius: 0.1rem;
+    background-color: rgb(249, 246, 246);
+  }
+  .right_container {
+    height: 16rem;
+    background: radial-gradient(circle at center, #176977, #06323b);
+
+
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    padding-top: 4rem;
+    margin-top: -1.9rem;
+    margin-bottom: -1.9rem;
+  }
+
+  .afterHeaderLeft_container {
+    width: 100%;
+    height: 12rem;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .afterHeaderright_container {
+    margin-top: -0.2rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    height: 14rem;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  .sent_text,
+  .toptup_text,
+  .more_text {
+    margin-top: -0.1rem;
+  }
+  .send_icon,
+  .topup_icon,
+  .more_icon {
+    width: 1rem;
+  }
+
+  .sendicon_div,
+  .topUp_div,
+  .more_div {
+    width: 3rem;
+    height: 3rem;
+  }
+  .sendTopupMore_wrapper {
+    padding: 1rem;
+  }
+  .sendTopupMore_container {
+    margin-top: -0rem;
+    width: 90%;
+    height: 4rem;
+  }
+
+  .AddDebit_right {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+  }
+
+  .plusAAd2 {
+    margin-top: -0.8rem;
+    padding-top: 0.4rem;
+  }
+  .plusBody_carrier {
+    margin-right: 1rem;
+  }
+  .addDebit_text {
+    margin-top: 2rem;
+    white-space: nowrap;
+  }
+
+  .recent_transcExpenses_wrapper {
+    display: block;
+  }
+
+  .recent_transactions_div {
+    margin-top: 0.1rem;
+    width: 80%;
+    height: 18rem;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  .calender_div {
+    display: none;
+  }
+
+  .search_div {
+    margin-left: -2rem;
+  }
+  .recent_transactions_text {
+    white-space: nowrap;
+  }
+
+  .expenses_instead_div {
+    width: 80%;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  .circle-out {
+    margin-left: -2rem;
+  }
+  .total_expo {
+    margin-top: -1rem;
+  }
+  .expenses_instead_text {
+    margin-top: 1rem;
+  }
+
+  .right_general {
+    background-color: rgba(241, 237, 237, 0);
+  }
+  .invoice_activity {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    height: 16rem;
+  }
+
+  .invoice_search_icon{
+    margin-top: -1.3rem;
+  }
+
+  .invoice_export_div,
+  .invoice_input,
+  .invoice_filter_div {
+    display: none;
+  }
+  .Invoice_Menu_ul{
+    margin-top: 16rem;
+    display: block !important;
+    margin-left: -1rem;
+  }
+  .invoice_menu_li{
+    margin-bottom: 1.9rem;
+  }
+}
+
+/* iPads, Tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* Styles go here */
+}
+
+/* Small screens, laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .general {
+    background-color: #ffffff;
+    width: 100%;
+    height: 60rem;
+    margin: auto;
+    border-radius: 2rem;
+    display: flex;
+  }
+
+  .right_container {
+    height: 65rem;
+  }
+
+  .search_div {
+    width: 0.4rem;
+    height: 0rem;
+  }
+  .calender_div {
+    margin-right: 2rem;
+    width: 5rem;
+    height: 1.2rem;
+  }
+
+  .calandar_tex {
+    font-size: 0.5rem;
+    white-space: nowrap;
+  }
+
+  .calendar_icon {
+    width: 1rem;
+  }
+
+  .left_container {
+    display: none;
+  }
+  .cardImageADD_wrappererright_container {
+    width: 30rem;
+    height: 30vh;
+  }
+
+  .afterHeaderright_container {
+    width: 40rem;
+    height: 16rem;
+  }
+  .afterHeaderLeft_container {
+    width: 50rem;
+    height: 16rem;
+  }
+  .AddDebit_right {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 0.6rem;
+    margin-left: 1.2rem;
+  }
+
+  .card_image {
+    margin-top: 0.6rem;
+  }
+
+  .cardImageADD_wrapper {
+    width: 90%;
+  }
+  .recent_transactions_div {
+    width: 32rem;
+    height: 18rem;
+  }
+  .recent_transactions_text {
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+
+  .payal_div,
+  .spotify_div,
+  .transferW_div,
+  .H_and_M_div {
+    width: 2rem;
+    height: 2rem;
+  }
+  .paypal_icon,
+  .spotify_icon,
+  .transferW_icon,
+  .H_and_M_icon {
+    width: 1.5rem;
+  }
+  .paypal_text,
+  .spotify_prenuim_text,
+  .TransactionW_text,
+  .H_andM_text {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+  }
+  .paypal_data,
+  .spotify_date,
+  .TransferW_date,
+  .H_andM_date {
+    margin-left: 1rem;
+    font-size: 0.6rem;
+  }
+  .All_transac_text_div {
+    margin-left: 3rem;
+  }
+
+  .Alltransac_price_DIV {
+    margin-right: -12rem;
+  }
+  .paypal_price,
+  .spotify_price,
+  .transferW_price,
+  .H_and_M_price {
+    font-size: 0.8rem;
+    margin-bottom: 2.4rem;
+    margin-top: -0rem;
+  }
+
+  .expenses_instead_div {
+    height: 18rem;
+  }
+  .total_expo {
+    margin-top: -1rem;
+  }
+  .circle-out {
+    padding-left: 3rem;
+  }
+  .general_up_div {
+    margin-top: 3.5rem;
+  }
+}
+
+/* Desktops, large screens */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  /* Styles go here */
+}
+
+/* Extra large screens, TV */
+@media only screen and (min-width: 1201px) {
+  /* Styles go here */
+}
+
+/* MEDIA QUERIES ENDS HERE */
