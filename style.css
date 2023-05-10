@@ -809,28 +809,42 @@ a {
     display: flex;
     flex-wrap: wrap;
   }
-  .left_container {
+  .footer_wrapper {
     display: none;
   }
 
+  .hidden{
+    display: none !important;
+  }
+  .left_container {
+    width: 15.6rem;
+    height: 42rem;
+    z-index: 9999rem;
+    position: absolute;
+  }
   .mobile_nav_bar {
     margin-left: -12.4rem;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   }
-  .menu_open_logo,
-  .menu_close_logo {
-    width: 1.4rem;
+  .menu_open_logo {
+    width: 1.8rem;
     position: absolute;
     margin-top: -7.8rem;
     margin-right: -rem;
     cursor: pointer;
   }
+
   .menu_open_logo {
     margin-left: 12.1rem;
     margin-top: -23.2rem;
   }
   .menu_close_logo {
-    display: none;
+    padding: 16rem;
+    position: absolute;
+    margin-top: -40.5rem;
+    margin-left: 10rem;
+    width: 1.8rem;
+    cursor: pointer;
   }
   .title_left_container {
     display: flex;
