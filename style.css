@@ -805,6 +805,9 @@ a {
     font-family: sans-serif;
   }
 
+  .title_left,.leftNAV_paragraph_text{
+    font-size: 1.1rem!important;
+  }
   .right_general {
     display: flex;
     flex-wrap: wrap;
@@ -818,7 +821,7 @@ a {
   }
   .left_container {
     width: 15.6rem;
-    height: 42rem;
+    height: 44rem;
     z-index: 9999rem;
     position: absolute;
   }
